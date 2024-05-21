@@ -1,4 +1,5 @@
 import initial from './initialLoading';
+import menu from './menuLoading'
 import './style.css';
 initial();
 
@@ -20,7 +21,10 @@ buttons.forEach(key => {
 
         if( name == "Home"){
             initial();
-        }   
+        }
+        else if( name = "Menu"){
+            menu();
+        } 
 
     });
 });
