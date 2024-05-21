@@ -1,1 +1,3 @@
-console.log('testing code!');
+import initial from './initialLoading';
+
+initial();
