@@ -1,19 +1,26 @@
+import './style.css';
 
 function addInitialContent(){
     let content = document.querySelector('#content');
     let mainDiv = document.createElement('div');
     let header = document.createElement('h3');
+    let botttom = document.createElement('div');
     let img = document.createElement('img');
     let paragraph = document.createElement('p');
 
     header.innerText = 'Webpack Restaurant';
+    header.classList.add('conHeader');
     img.setAttribute('alt', 'pic of restaurant');
     paragraph.innerText = `Nestled in the heart of Willow Creek, The Enchanted Spoon offers a whimsical dining experience. The rustic decor,twinkling fairy lights, and lush indoor garden set a magical ambiance. Signature dishes include Dragonfire Steak and Elvenbread Delight, each crafted with locally sourced ingredients. Perfect for romantic dinners or family gatherings, it'swhere culinary dreams come true.`;
 
 
     mainDiv.appendChild(header);
-    mainDiv.appendChild(img);
-    mainDiv.appendChild(paragraph);
+    botttom.appendChild(img);
+    botttom.appendChild(paragraph);
+
+    botttom.classList.add('bottom');
+    mainDiv.appendChild(botttom);
+    mainDiv.classList.add('mainSec');
 
     content.appendChild(mainDiv);
     
