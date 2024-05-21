@@ -1,7 +1,8 @@
-import './style.css';
+import './styleForInit.css';
 
 function addInitialContent(){
     let content = document.querySelector('#content');
+    content.innerHTML = '';
     let mainDiv = document.createElement('div');
     let header = document.createElement('h3');
     let botttom = document.createElement('div');
