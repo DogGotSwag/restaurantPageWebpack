@@ -23,3 +23,12 @@ img{
     border: 2px solid black;
     margin-right: 15px;
 }
+.drinkImg{
+    min-width: 120px;
+    min-height: 120px;
+}
+.bottomMenu{
+    margin-bottom: 13px;
+    display: flex;
+    justify-content: center;
+}
