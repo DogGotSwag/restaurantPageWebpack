@@ -27,7 +27,4 @@ function addInitialContent(){
     
 }
 
-
-
-
 export default addInitialContent;

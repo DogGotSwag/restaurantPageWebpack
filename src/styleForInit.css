@@ -32,3 +32,8 @@ img{
     display: flex;
     justify-content: center;
 }
+
+.aboutPara::first-line{
+    font-size: 18px;
+    font-weight: 600;
+}
