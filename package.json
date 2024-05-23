@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.prod.js",
-    "watch": "webpack --watch --config webpack.dev.js"
+    "watch": "webpack --watch --config webpack.dev.js",
+    "addDist": "git add dist && git commit -m \"Initial dist subtree commit/\"",
+    "live": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
